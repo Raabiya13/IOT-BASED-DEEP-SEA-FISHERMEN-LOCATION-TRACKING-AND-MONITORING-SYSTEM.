@@ -1,0 +1,34 @@
+When GSM fails to connect Network
+
+GPS Location Updater
+⚠️ A GPS signal is waiting not fixed yet... Being fallback location..
+Latitude (Fallback): 13.147500
+Longitude) (Fallback): 930.068898
+
+
+
+⚠️🚨🦺A EMERGENCY BUTTON PRESSED by the fisher man
+
+GSM offline. Storing Button Alert in EEPROM...
+Data stored in EEPROM (Offline Mode)
+
+
+________________________________________________________________________________________________________________________________
+
+
+When GSM connected to Network
+
+GPS Location Updater
+⚠️🚨🦺EMERGENCY ALERT: Manual SOS Triggered sent to the Shore!
+Latitude: 13.147800
+Longitude: 80.058601
+
+⚠️SoS alert sent to the shore !!
+
+Current location update -> 
+Lat: 13.147900, 
+Lon: 80.058502
+
+Current location update ->
+Lat: 13.147910,
+Lon: 80.058512

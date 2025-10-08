@@ -1,0 +1,16 @@
+EMERGENCY BUTTON PRESSED by the fisherman!
+Latitude (Fallback): 13,147500
+Longitude (Fallback): 80.058898
+
+		Today 11:44 AM
+
+GPS Location Update:
+Latitude (Fallback): 13,147600
+Longitude (Fallback): 80.058998
+
+		Today 11:44 AMB
+
+! Sudden Tilt Detected! Possible emergency situation!
+GPS Location Update:
+Latitude (Fallback): 13.147500
+Longitude (Fallback): 80.058898

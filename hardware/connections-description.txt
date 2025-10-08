@@ -1,0 +1,64 @@
+⚙️ Connection Description – Deep Sea Fisherman Tracking System.
+
+🧠 Microcontroller Used: Arduino Uno.
+
+🔋 Common Ground: All modules share a common GND connection.
+
+🔘 Push Button Connection
+
+________________________________________________________________________________________________________________________________
+
+|Component-----------|--------Arduino Pin---------|Description------------------------------|
+|--------------------|----------------------------|-----------------------------------------|
+|Button Terminal 1   |        D2	          |Input pin to detect manual SOS trigger   |
+|Button Terminal 2   |        GND		  |Connected to ground through breadboard   |
+|--------------------|----------------------------|-----------------------------------------|
+
+________________________________________________________________________________________________________________________________
+
+Connection Diagram (Simple View)
+
+D2  ---| |---  GND
+
+________________________________________________________________________________________________________________________________
+
+🧭 MPU6050 (Motion Sensor) Connection
+
+|MPU6050 Pin|-- Arduino Pin-|---Description---------|
+|VCC	    |   5V          |        Power supply   |
+|GND	    |   GND         |        Ground         |
+|SDA	    |   A4          |        I2C Data line  |
+|SCL	    |   A5          |        I2C Clock line |
+|-----------|---------------|-----------------------|
+
+________________________________________________________________________________________________________________________________
+
+📡 GPS Module (NEO-6M) Connection
+
+|GPS Pin----|-- Arduino Pin-|--------Description----------------------------------|
+|VCC	    |   5V          |        Power supply                                 |
+|GND	    |   GND         |        Common Ground                                |
+|TX	    |   D9          |        Transmit data (connects to Arduino RX)       |
+|RX	    |   D8          |        Receive data (connects to Arduino TX)        |
+|-----------|---------------|-----------------------------------------------------|
+
+________________________________________________________________________________________________________________________________
+
+📶 GSM Module (SIM800L) Connection
+
+|GSM Pin----|-- Arduino Pin--------|--------Description----------------------------------|
+|VCC	    |   5V(via Breadboard  |        Power supply (ensure sufficient current)     |
+|RST	    |   -                  |        (Optional–can be left unconnected/connected) |
+|RXD	    |   D5                 |        Arduino TX pin (to send data to GSM)         |
+|TXD	    |   D4                 |        Arduino RX pin (to receive data from GSM)    |
+|GND	    |   GND(common)        |        Ground                                       |
+|-----------|----------------------|-----------------------------------------------------|
+
+________________________________________________________________________________________________________________________________
+
+⚡ Power Supply Notes
+========================
+Use an external 5V power supply or a breadboard power module to power GSM and GPS modules (as SIM800L draws higher current during transmission).
+   Ensure all grounds (Arduino, GSM, GPS, MPU6050, and button) are connected together.
+
+________________________________________________________________________________________________________________________________
