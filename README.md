@@ -125,7 +125,7 @@ organized by **Jaya Engineering College, Chennai**.
 
 ## 📬 Contact
 For queries or collaboration:  
-📧 **raabiyan@example.com** *(replace with your actual email)*
+📧 nraabiya13@gmail.com
 
 ---
 
