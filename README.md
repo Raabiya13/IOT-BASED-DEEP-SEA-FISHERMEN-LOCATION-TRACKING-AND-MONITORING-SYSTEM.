@@ -119,7 +119,9 @@ organized by **Jaya Engineering College, Chennai**.
 
 ## 👩‍💻 Authors
 - **Raabiya N** – Aalim Muhamed Salegh College of Engineering  
-- *(Add your teammates’ names if applicable)*
+- **Team Mates** – Priyadarshini P
+                   Nandhini K
+                   Waqas
 
 ---
 
